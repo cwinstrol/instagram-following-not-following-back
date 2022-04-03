@@ -1,8 +1,8 @@
 from instapy import InstaPy
 from instapy import smart_run
 
-session = InstaPy(username='',
-                  password='',
+session = InstaPy(#username='',
+                  #password='',
                   headless_browser=False)
 
 with smart_run(session):
