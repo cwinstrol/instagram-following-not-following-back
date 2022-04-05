@@ -3,7 +3,7 @@ from instapy import smart_run
 
 session = InstaPy(#username='',
                   #password='',
-                  headless_browser=False)
+                  headless_browser=True)
 
 with smart_run(session):
     followers= session.grab_followers(#username="",
